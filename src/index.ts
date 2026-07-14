@@ -1,2 +1,2 @@
-export * from "./configuration/api.ts";
-export * from "./configuration/web.ts";
+export * from "./api/version.ts";
+export * from "./dto/api/users.dto.ts";
