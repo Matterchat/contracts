@@ -3,6 +3,7 @@ export class UserModelDto {
   email!: string;
   fullName!: string;
   avatarUrl!: string;
+  lastSeen!: Date;
   createdAt!: Date;
   updatedAt!: Date;
 
