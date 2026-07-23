@@ -2,7 +2,7 @@ export class UserModelDto {
   id!: string;
   email!: string;
   fullName!: string;
-  avatarUrl?: string | null;
+  avatarUrl!: string;
   createdAt!: Date;
   updatedAt!: Date;
 
